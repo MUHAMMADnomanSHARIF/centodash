@@ -75,7 +75,7 @@
     <!--begin::Col-->
     <div class="mb-10 my-4">
         <label for="" class="form-label">{{ $label }}</label>
-        <select class="form-select form-select-solid is-valid" name="{{ $name }}" data-placeholder="Select an option" data-allow-clear="true" data-control="select2" 
+        <select class="form-select form-select-solid is-valid" name="{{ $name }}" data-placeholder="Select an option" data-allow-clear="true" data-control="select2"
             @if ($type === 'multi-select')
                  multiple="multiple"
             @endif
@@ -88,5 +88,5 @@
     </div>
     <div class="error text-danger">{{ $message }}</div>
     <!--end::Col-->
-    
+
 @endif
